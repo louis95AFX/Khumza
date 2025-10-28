@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+    --gold: #D4AF37;
+    --gold-dark: #B38B2D;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.text-gold {
+    color: var(--gold);
+}
+
+.bg-gold {
+    background-color: var(--gold);
+}
+
+.bg-gold-600 {
+    background-color: var(--gold-dark);
+}
+
+.border-gold {
+    border-color: var(--gold);
+}
+
+.animate-fade-in {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.animate-bounce {
+    animation: bounce 2s infinite;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-20px); }
+    60% { transform: translateY(-10px); }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--gold);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--gold-dark);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .text-5xl {
+        font-size: 2.5rem;
+    }
+    .text-7xl {
+        font-size: 3rem;
+    }
+}

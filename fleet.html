@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Fleet | Luxe Shuttle Royale</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-black text-white font-poppins">
+    <luxe-navbar></luxe-navbar>
+
+    <!-- Fleet Hero -->
+    <section class="relative h-96 flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-black/60 z-10"></div>
+        <img src="http://static.photos/automotive/1200x630/10" alt="Luxury Fleet" class="absolute inset-0 w-full h-full object-cover">
+        <div class="relative z-20 text-center px-4">
+            <h1 class="text-5xl md:text-6xl font-playfair tracking-wide mb-4">Our <span class="text-gold">Exquisite</span> Fleet</h1>
+            <p class="text-xl max-w-2xl mx-auto">Choose from our hand-selected collection of luxury vehicles</p>
+        </div>
+    </section>
+
+    <!-- Fleet Showcase -->
+    <section class="py-20">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Mercedes V-Class -->
+                <div class="bg-gray-900 rounded-xl overflow-hidden shadow-2xl transition-transform duration-500 hover:scale-105" data-sr>
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="item2.jpg" alt="Mercedes V-Class" class="absolute inset-0 w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-6">
+                            <h3 class="text-xl font-semibold">Mercedes-Benz V-Class</h3>
+                            <div class="flex items-center mt-2">
+                                <span class="text-gold mr-2">★★★★★</span>
+                                <span class="text-sm text-gray-300">Premium Class</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <div>
+                                <span class="text-gold text-xl font-medium">From R6500. Shuttle Service only</span>
+                                <span class="text-gray-400"> / day</span>
+                            </div>
+                            <div class="flex items-center text-sm text-gray-400">
+                                <i data-feather="users" class="w-4 h-4 mr-1"></i>
+                                <span>7 passengers</span>
+                            </div>
+                        </div>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Executive leather seating</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Privacy partition available</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Complimentary WiFi & refreshments</span>
+                            </li>
+                        </ul>
+                        <a href="#booking" class="mt-6 block w-full bg-gold hover:bg-gold-600 text-center text-black font-medium py-3 px-6 rounded-lg transition-all duration-300">Book This Vehicle</a>
+                    </div>
+                </div>
+
+                <!-- BMW 7 Series -->
+                <div class="bg-gray-900 rounded-xl overflow-hidden shadow-2xl transition-transform duration-500 hover:scale-105" data-sr>
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="item11.jpg" alt="BMW 7 Series" class="absolute inset-0 w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-6">
+                            <h3 class="text-xl font-semibold">Toyota Quantum Bus</h3>
+                            <div class="flex items-center mt-2">
+                                <span class="text-gold mr-2">★★★★★</span>
+                                <span class="text-sm text-gray-300">Executive Class</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <div>
+                                <span class="text-gold text-xl font-medium">From R3500 Shuttle services only</span>
+                                <span class="text-gray-400"> / day</span>
+                            </div>
+                            <div class="flex items-center text-sm text-gray-400">
+                                <i data-feather="users" class="w-4 h-4 mr-1"></i>
+                                <span>14 passengers</span>
+                            </div>
+                        </div>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Massage seats with heating/cooling</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Ambient lighting & premium sound</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Executive package with amenities</span>
+                            </li>
+                        </ul>
+                        <a href="#booking" class="mt-6 block w-full bg-gold hover:bg-gold-600 text-center text-black font-medium py-3 px-6 rounded-lg transition-all duration-300">Book This Vehicle</a>
+                    </div>
+                </div>
+
+                <!-- Range Rover -->
+                <div class="bg-gray-900 rounded-xl overflow-hidden shadow-2xl transition-transform duration-500 hover:scale-105" data-sr>
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="item5.jpg" alt="Range Rover" class="absolute inset-0 w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-6">
+                            <h3 class="text-xl font-semibold">Hyundai Staria</h3>
+                            <div class="flex items-center mt-2">
+                                <span class="text-gold mr-2">★★★★★</span>
+                                <span class="text-sm text-gray-300">Premium Bus</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <div>
+                                <span class="text-gold text-xl font-medium">From R3500. Self Drive</span>
+                                <span class="text-gray-400"> / day</span>
+                            </div>
+                            <div class="flex items-center text-sm text-gray-400">
+                                <i data-feather="users" class="w-4 h-4 mr-1"></i>
+                                <span>11 passengers</span>
+                            </div>
+                        </div>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Ultimate luxury SUV experience</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>All-wheel drive capability</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Executive rear seating package</span>
+                            </li>
+                        </ul>
+                        <a href="#booking" class="mt-6 block w-full bg-gold hover:bg-gold-600 text-center text-black font-medium py-3 px-6 rounded-lg transition-all duration-300">Book This Vehicle</a>
+                    </div>
+                </div>
+
+                <!-- Additional Vehicles -->
+                <div class="bg-gray-900 rounded-xl overflow-hidden shadow-2xl transition-transform duration-500 hover:scale-105" data-sr>
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="item9.jpg" alt="Lexus LS" class="absolute inset-0 w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-6">
+                            <h3 class="text-xl font-semibold">Hyundai H-1 Bus</h3>
+                            <div class="flex items-center mt-2">
+                                <span class="text-gold mr-2">★★★★★</span>
+                                <span class="text-sm text-gray-300">Executive Bus</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <div>
+                                <span class="text-gold text-xl font-medium">From R2900. Self Drive</span>
+                                <span class="text-gray-400"> / day</span>
+                            </div>
+                            <div class="flex items-center text-sm text-gray-400">
+                                <i data-feather="users" class="w-4 h-4 mr-1"></i>
+                                <span>9 passengers</span>
+                            </div>
+                        </div>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Plush semi-aniline leather</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Mark Levinson® sound system</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Executive-class comfort</span>
+                            </li>
+                        </ul>
+                        <a href="#booking" class="mt-6 block w-full bg-gold hover:bg-gold-600 text-center text-black font-medium py-3 px-6 rounded-lg transition-all duration-300">Book This Vehicle</a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-900 rounded-xl overflow-hidden shadow-2xl transition-transform duration-500 hover:scale-105" data-sr>
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="item7.jpg" alt="Mercedes Sprinter" class="absolute inset-0 w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-6">
+                            <h3 class="text-xl font-semibold">Suzuki</h3>
+                            <div class="flex items-center mt-2">
+                                <span class="text-gold mr-2">★★★★★</span>
+                                <span class="text-sm text-gray-300">Group Transportation</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <div>
+                                <span class="text-gold text-xl font-medium">From R2000. Self Drive</span>
+                                <span class="text-gray-400"> / day</span>
+                            </div>
+                            <div class="flex items-center text-sm text-gray-400">
+                                <i data-feather="users" class="w-4 h-4 mr-1"></i>
+                                <span>7 passengers</span>
+                            </div>
+                        </div>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Spacious executive configuration</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Onboard entertainment system</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Perfect for corporate groups</span>
+                            </li>
+                        </ul>
+                        <a href="#booking" class="mt-6 block w-full bg-gold hover:bg-gold-600 text-center text-black font-medium py-3 px-6 rounded-lg transition-all duration-300">Book This Vehicle</a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-900 rounded-xl overflow-hidden shadow-2xl transition-transform duration-500 hover:scale-105" data-sr>
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="item8.jpg" alt="Tesla Model S" class="absolute inset-0 w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-6">
+                            <h3 class="text-xl font-semibold">Quantum</h3>
+                            <div class="flex items-center mt-2">
+                                <span class="text-gold mr-2">★★★★★</span>
+                                <span class="text-sm text-gray-300">Eco Bus</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <div>
+                                <span class="text-gold text-xl font-medium">From R3500. Shuttle Service Only</span>
+                                <span class="text-gray-400"> / day</span>
+                            </div>
+                            <div class="flex items-center text-sm text-gray-400">
+                                <i data-feather="users" class="w-4 h-4 mr-1"></i>
+                                <span>14 passengers</span>
+                            </div>
+                        </div>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Zero-emission luxury travel</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Ludicrous acceleration</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                                <span>Premium vegan leather interior</span>
+                            </li>
+                        </ul>
+                        <a href="#booking" class="mt-6 block w-full bg-gold hover:bg-gold-600 text-center text-black font-medium py-3 px-6 rounded-lg transition-all duration-300">Book This Vehicle</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-playfair mb-16 text-center text-gold">Fleet Comparison</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full">
+                    <thead>
+                        <tr class="border-b border-gray-700">
+                            <th class="text-left py-4 px-6">Vehicle</th>
+                            <th class="text-center py-4 px-6">Passengers</th>
+                            <th class="text-center py-4 px-6">Luggage</th>
+                            <th class="text-center py-4 px-6">Features</th>
+                            <th class="text-center py-4 px-6">Base Rate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b border-gray-700 hover:bg-gray-800">
+                            <td class="py-4 px-6">
+                                <div class="flex items-center">
+                                    <div class="w-16 h-16 rounded-md overflow-hidden mr-4">
+                                        <img src="item8.jpg" alt="Quantum" class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <div class="font-medium">Quantum</div>
+                                        <div class="text-sm text-gray-400">Eco Bus</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center py-4 px-6">14</td>
+                            <td class="text-center py-4 px-6">4 large</td>
+                            <td class="text-center py-4 px-6">
+                                <div class="flex justify-center space-x-2">
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">WiFi</span>
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">Privacy</span>
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">Refreshments</span>
+                                </div>
+                            </td>
+                            <td class="text-center text-gold font-medium py-4 px-6">R3500</td>
+                        </tr>
+                        <tr class="border-b border-gray-700 hover:bg-gray-800">
+                            <td class="py-4 px-6">
+                                <div class="flex items-center">
+                                    <div class="w-16 h-16 rounded-md overflow-hidden mr-4">
+                                        <img src="item7.jpg" alt="BMW 7 Series" class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <div class="font-medium">Suzuki</div>
+                                        <div class="text-sm text-gray-400">7 Seater</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center py-4 px-6">7</td>
+                            <td class="text-center py-4 px-6">3 medium</td>
+                            <td class="text-center py-4 px-6">
+                                <div class="flex justify-center space-x-2">
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">Massage Seats</span>
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">Ambient</span>
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">Sound</span>
+                                </div>
+                            </td>
+                            <td class="text-center text-gold font-medium py-4 px-6">R2000</td>
+                        </tr>
+                        <tr class="border-b border-gray-700 hover:bg-gray-800">
+                            <td class="py-4 px-6">
+                                <div class="flex items-center">
+                                    <div class="w-16 h-16 rounded-md overflow-hidden mr-4">
+                                        <img src="item5.jpg" alt="Hyundai Staria" class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <div class="font-medium">Hyundai Staria</div>
+                                        <div class="text-sm text-gray-400"> Bus</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center py-4 px-6">11</td>
+                            <td class="text-center py-4 px-6">3 large</td>
+                            <td class="text-center py-4 px-6">
+                                <div class="flex justify-center space-x-2">
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">AWD</span>
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">Luxury</span>
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">Executive</span>
+                                </div>
+                            </td>
+                            <td class="text-center text-gold font-medium py-4 px-6">R3500</td>
+                        </tr>
+                        <tr class="border-b border-gray-700 hover:bg-gray-800">
+                            <td class="py-4 px-6">
+                                <div class="flex items-center">
+                                    <div class="w-16 h-16 rounded-md overflow-hidden mr-4">
+                                        <img src="item9.jpg" alt="Lexus LS" class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <div class="font-medium">Hyundai H-1 Bus</div>
+                                        <div class="text-sm text-gray-400"></div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center py-4 px-6">9</td>
+                            <td class="text-center py-4 px-6">3 medium</td>
+                            <td class="text-center py-4 px-6">
+                                <div class="flex justify-center space-x-2">
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">Plush</span>
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">Sound</span>
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">Comfort</span>
+                                </div>
+                            </td>
+                            <td class="text-center text-gold font-medium py-4 px-6">R2900</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800">
+                            <td class="py-4 px-6">
+                                <div class="flex items-center">
+                                    <div class="w-16 h-16 rounded-md overflow-hidden mr-4">
+                                        <img src="item4.jpg" alt="Mercedes-Benz V-Class" class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <div class="font-medium">Mercedes-Benz V-Class</div>
+                                        <div class="text-sm text-gray-400">Group Van</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="text-center py-4 px-6">12</td>
+                            <td class="text-center py-4 px-6">12 large</td>
+                            <td class="text-center py-4 px-6">
+                                <div class="flex justify-center space-x-2">
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">Spacious</span>
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">Entertainment</span>
+                                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">Corporate</span>
+                                </div>
+                            </td>
+                            <td class="text-center text-gold font-medium py-4 px-6">R6500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <luxe-footer></luxe-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+        ScrollReveal().reveal('[data-sr]', {
+            delay: 200,
+            distance: '20px',
+            origin: 'bottom',
+            interval: 100,
+            easing: 'cubic-bezier(0.5, 0, 0, 1)'
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleet Pricing | Luxe Shuttle Royale</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-black text-white font-poppins">
+    <luxe-navbar></luxe-navbar>
+
+    <!-- Pricing Hero -->
+    <section class="relative h-80 flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-black/60 z-10"></div>
+        <img src="http://static.photos/automotive/1200x630/15" alt="Luxury Fleet Pricing" class="absolute inset-0 w-full h-full object-cover">
+        <div class="relative z-20 text-center px-4">
+            <h1 class="text-5xl md:text-6xl font-playfair tracking-wide mb-4">Our <span class="text-gold">Transparent</span> Pricing</h1>
+            <p class="text-xl max-w-2xl mx-auto">Competitive rates for our premium fleet with no hidden fees</p>
+        </div>
+    </section>
+
+    <!-- Pricing Tiers -->
+    <section class="py-20 bg-black">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-playfair mb-16 text-center text-gold">Pricing Tiers</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Standard -->
+                <div class="bg-gray-900 rounded-xl p-8 border border-gray-700 hover:border-gold transition-all duration-300" data-sr>
+                    <h3 class="text-2xl font-playfair mb-4 text-gold">Standard</h3>
+                    <div class="text-3xl font-medium mb-6">$149<span class="text-lg text-gray-400">/trip</span></div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Executive sedans</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Up to 3 passengers</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Flight tracking</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Basic amenities</span>
+                        </li>
+                    </ul>
+                    <a href="#booking" class="block w-full text-center bg-gray-700 hover:bg-gray-600 text-white font-medium py-3 px-6 rounded-lg transition-all duration-300">Book Standard</a>
+                </div>
+
+                <!-- Premium -->
+                <div class="bg-gray-900 rounded-xl p-8 border-2 border-gold transform hover:scale-105 transition-all duration-300" data-sr>
+                    <div class="absolute top-0 right-0 bg-gold text-black px-3 py-1 text-xs font-medium rounded-bl-lg">Most Popular</div>
+                    <h3 class="text-2xl font-playfair mb-4 text-gold">Premium</h3>
+                    <div class="text-3xl font-medium mb-6">$199<span class="text-lg text-gray-400">/trip</span></div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Luxury SUVs & vans</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Up to 6 passengers</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Meet & greet service</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Premium amenities</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>WiFi & refreshments</span>
+                        </li>
+                    </ul>
+                    <a href="#booking" class="block w-full text-center bg-gold hover:bg-gold-600 text-black font-medium py-3 px-6 rounded-lg transition-all duration-300">Book Premium</a>
+                </div>
+
+                <!-- Elite -->
+                <div class="bg-gray-900 rounded-xl p-8 border border-gray-700 hover:border-gold transition-all duration-300" data-sr>
+                    <h3 class="text-2xl font-playfair mb-4 text-gold">Elite</h3>
+                    <div class="text-3xl font-medium mb-6">$299<span class="text-lg text-gray-400">/trip</span></div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Flagship vehicles</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Up to 4 passengers</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Personal assistant</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Privacy partitions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Premium champagne</span>
+                        </li>
+                    </ul>
+                    <a href="#booking" class="block w-full text-center bg-gray-700 hover:bg-gray-600 text-white font-medium py-3 px-6 rounded-lg transition-all duration-300">Book Elite</a>
+                </div>
+
+                <!-- Group -->
+                <div class="bg-gray-900 rounded-xl p-8 border border-gray-700 hover:border-gold transition-all duration-300" data-sr>
+                    <h3 class="text-2xl font-playfair mb-4 text-gold">Group</h3>
+                    <div class="text-3xl font-medium mb-6">$249<span class="text-lg text-gray-400">/trip</span></div>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Executive vans</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Up to 12 passengers</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Custom routing</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Onboard entertainment</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check-circle" class="text-gold mr-2 mt-1 w-4 h-4"></i>
+                            <span>Group discounts</span>
+                        </li>
+                    </ul>
+                    <a href="#booking" class="block w-full text-center bg-gray-700 hover:bg-gray-600 text-white font-medium py-3 px-6 rounded-lg transition-all duration-300">Book Group</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Pricing Table -->
+    <section class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-playfair mb-16 text-center text-gold">Detailed Pricing</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full">
+                    <thead>
+                        <tr class="border-b border-gray-700">
+                            <th class="text-left py-4 px-6">Vehicle Class</th>
+                            <th class="text-center py-4 px-6">Base Rate</th>
+                            <th class="text-center py-4 px-6">Hourly Rate</th>
+                            <th class="text-center py-4 px-6">Airport Transfer</th>
+                            <th class="text-center py-4 px-6">City Transfer</th>
+                            <th class="text-center py-4 px-6">Event Service</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b border-gray-700 hover:bg-gray-800">
+                            <td class="py-4 px-6 font-medium">Executive Sedan</td>
+                            <td class="text-center text-gold py-4 px-6">$149</td>
+                            <td class="text-center py-4 px-6">$85</td>
+                            <td class="text-center py-4 px-6">$159</td>
+                            <td class="text-center py-4 px-6">$149</td>
+                            <td class="text-center py-4 px-6">$175</td>
+                        </tr>
+                        <tr class="border-b border-gray-700 hover:bg-gray-800">
+                            <td class="py-4 px-6 font-medium">Luxury SUV</td>
+                            <td class="text-center text-gold py-4 px-6">$189</td>
+                            <td class="text-center py-4 px-6">$95</td>
+                            <td class="text-center py-4 px-6">$199</td>
+                            <td class="text-center py-4 px-6">$189</td>
+                            <td class="text-center py-4 px-6">$225</td>
+                        </tr>
+                        <tr class="border-b border-gray-700 hover:bg-gray-800">
+                            <td class="py-4 px-6 font-medium">Premium Van</td>
+                            <td class="text-center text-gold py-4 px-6">$199</td>
+                            <td class="text-center py-4 px-6">$110</td>
+                            <td class="text-center py-4 px-6">$209</td>
+                            <td class="text-center py-4 px-6">$199</td>
+                            <td class="text-center py-4 px-6">$249</td>
+                        </tr>
+                        <tr class="border-b border-gray-700 hover:bg-gray-800">
+                            <td class="py-4 px-6 font-medium">Flagship Sedan</td>
+                            <td class="text-center text-gold py-4 px-6">$299</td>
+                            <td class="text-center py-4 px-6">$150</td>
+                            <td class="text-center py-4 px-6">$329</td>
+                            <td class="text-center py-4 px-6">$299</td>
+                            <td class="text-center py-4 px-6">$349</td>
+                        </tr>
+                        <tr class="hover:bg-gray-800">
+                            <td class="py-4 px-6 font-medium">Executive Group Van</td>
+                            <td class="text-center text-gold py-4 px-6">$249</td>
+                            <td class="text-center py-4 px-6">$135</td>
+                            <td class="text-center py-4 px-6">$269</td>
+                            <td class="text-center py-4 px-6">$249</td>
+                            <td class="text-center py-4 px-6">$299</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing FAQ -->
+    <section class="py-20 bg-black">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-4xl font-playfair mb-16 text-center text-gold">Pricing FAQ</h2>
+            <div class="space-y-6">
+                <div class="border-b border-gray-700 pb-6" data-sr>
+                    <h3 class="text-xl font-semibold mb-3">What's included in the base rate?</h3>
+                    <p class="text-gray-300">Our base rate includes the vehicle, professional chauffeur, standard amenities (bottled water, WiFi, phone chargers), and up to 1 hour of service. Additional time is billed at the hourly rate.</p>
+                </div>
+                <div class="border-b border-gray-700 pb-6" data-sr>
+                    <h3 class="text-xl font-semibold mb-3">Are there any additional fees?</h3>
+                    <p class="text-gray-300">We pride ourselves on transparent pricing. The only additional charges would be for tolls, parking fees (if applicable), and gratuity for your chauffeur (15-20% recommended).</p>
+                </div>
+                <div class="border-b border-gray-700 pb-6" data-sr>
+                    <h3 class="text-xl font-semibold mb-3">Do you offer corporate discounts?</h3>
+                    <p class="text-gray-300">Yes, we offer special corporate rates for businesses with frequent transportation needs. Please contact our corporate team to discuss volume discounts and billing arrangements.</p>
+                </div>
+                <div class="border-b border-gray-700 pb-6" data-sr>
+                    <h3 class="text-xl font-semibold mb-3">What is your cancellation policy?</h3>
+                    <p class="text-gray-300">Reservations can be cancelled up to 24 hours before service with no penalty. Cancellations within 24 hours are subject to a 50% charge, and within 4 hours to full charge.</p>
+                </div>
+                <div data-sr>
+                    <h3 class="text-xl font-semibold mb-3">How are wait times handled?</h3>
+                    <p class="text-gray-300">Airport pickups include 60 minutes of complimentary wait time after flight arrival. Other services include 15 minutes of wait time. Additional wait time is billed at $25 per 15 minutes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <luxe-footer></luxe-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script>
+        feather.replace();
+        ScrollReveal().reveal('[data-sr]', {
+            delay: 200,
+            distance: '20px',
+            origin: 'bottom',
+            interval: 100,
+            easing: 'cubic-bezier(0.5, 0, 0, 1)'
+        });
+    </script>
+</body>
+</html>
